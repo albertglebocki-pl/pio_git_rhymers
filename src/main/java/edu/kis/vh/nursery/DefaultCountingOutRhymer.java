@@ -4,6 +4,10 @@ public class DefaultCountingOutRhymer {
 
     private int[] numbers = new int[12];
 
+    public int getIndex() {
+        return index;
+    }
+
     private int index = -1;
 
     public void countIn(int in) {
