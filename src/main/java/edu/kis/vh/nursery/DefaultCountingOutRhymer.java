@@ -4,11 +4,15 @@ public class DefaultCountingOutRhymer {
 
     private static final int MAX_SIZE = 12;
     private static final int DEFAULT_VALUE = -1;
-	private static final int INITIAL = -1;
+	  private static final int INITIAL = -1;
 
-	private final int[] numbers = new int[MAX_SIZE];
+    public int getIndex() {
+        return index;
+    }
 
-    public int index = INITIAL;
+	  private final int[] numbers = new int[MAX_SIZE];
+
+    private int index = INITIAL;
 
     public void countIn(int in) {
         if (!isFull())
