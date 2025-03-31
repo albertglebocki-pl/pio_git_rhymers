@@ -17,6 +17,7 @@ public class IntLinkedList {
     /**
      * Size of the list.
      */
+    /* TODO: needs refactoring - the size field is never used */
     private int size;
 
     /**
@@ -48,6 +49,7 @@ public class IntLinkedList {
      *
      * @return FALSE no matter of the list state.
      **/
+    /* TODO: needs refactoring - the isFull method should check if the list is full */
     public boolean isFull() {
         return false;
     }
